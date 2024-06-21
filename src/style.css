@@ -1,0 +1,142 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.main-container {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-container {
+    top: 51px;
+    left: 43px;
+    height: 58px;
+    width: 360px;
+    display: flex;
+    align-items: center;
+    padding: 0px 16px 0px 16px;
+}
+
+.left--group {
+    position: relative;
+    width: 52px;
+    height: 52px;
+    padding: 6px 12px 6px 0px !important;
+}
+
+.left--img {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+}
+
+.middle--group {
+    width: 214px;
+    height: 58px;
+    padding: 10px 0px 10px 0px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+}
+
+.middle--headline {
+    font-weight: 400px;
+    font-size: 16px;
+    letter-spacing: 0.15px;
+    line-height: 20px;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.middle--text {
+    font-weight: 400px;
+    font-size: 13px !important;
+    letter-spacing: 0.2px;
+    line-height: 16px;
+    color: #818c99;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.right--group {
+    display: flex;
+    align-items: center;
+    align-content: center;
+    width: 62px;
+    height: 40px;
+    padding: 0px 0px 0px 12px;
+}
+
+.right--time-container {
+    width: 26px;
+    min-width: 26px;
+    height: 40px;
+    padding: 8px 0px 8px 0px !important;
+}
+
+.right--time-text {
+    width: 26px;
+    font-weight: 400px;
+    font-size: 13px !important;
+    line-height: 16px;
+    letter-spacing: 0.2px;
+    text-align: right;
+    color: #818c99;
+    font-family: "Roboto", sans-serif !important;
+}
+
+.right--icon-more-vertical {
+    cursor: pointer;
+    width: 24px;
+    height: 40px;
+    padding: 12px 2px 12px 14px !important;
+}
+
+.btn-circle {
+    position: absolute !important;
+    top: 6px;
+    width: 40px;
+    height: 40px;
+    min-width: 40px !important;
+    min-height: 40px !important;
+    padding: 0;
+    opacity: 0;
+    border: 0.5px;
+    border-radius: 4px !important;
+}
+
+.btn-circle--hover {
+    background-color: rgba(0, 0, 0, 0) !important;
+    opacity: 1;
+}
+
+.icon-style--20 {
+    position: absolute;
+    color: white;
+    left: 25%;
+    top: 20%;
+}
+
+.icon-style--24 {
+    position: absolute;
+    left: 20%;
+    top: 20%;
+}
+
+.cover-background {
+    position: absolute;
+    top: 6px;
+    width: 40px;
+    height: 40px;
+    min-width: 40px !important;
+    min-height: 40px !important;
+    border: 0.5px;
+    border-radius: 4px !important;
+    background-color: rgba(0, 0, 0, 0.5) !important;
+}
+
+.cover-background--hidden {
+    opacity: 0;
+}
